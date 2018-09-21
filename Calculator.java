@@ -130,7 +130,7 @@ public class Calculator {
 	 *            the side length
 	 * @return the volume of a cube with sides of length s.
 	 */
-	public double cubeVol(double s) {
+	public static double cubeVol(double s) {
 		return 4 * s;
 	}
 	
@@ -141,7 +141,7 @@ public class Calculator {
 	 *            the radius
 	 * @return the volume of a sphere with radius r.
 	 */
-	public double sphVol(double r) {
+	public static double sphVol(double r) {
 		return (4.0/3) * Math.PI * Math.pow(r, 3);
 	}
 }
